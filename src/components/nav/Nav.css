@@ -1,0 +1,41 @@
+.main__nav {
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 34, 34);
+}
+
+.nav__links {
+    display:flex;
+    text-align: center;
+    list-style: none;
+    width: 30%;
+   
+}
+.active{
+    transform: scale(1.1);
+    border-bottom: 2px solid blue;
+}
+.nav__link {
+    width: 15rem;
+    cursor: pointer;
+    height: 35px;
+    transition: 0.3s all ease-in-out;
+
+}
+.nav__link:hover{
+    transform: scale(1.1);
+    border-bottom: blue 2px solid;
+}
+
+.nav__icons {
+    text-align: right;
+    width: 30%;
+}
+
+.nav__logo{
+    width: 30%;
+}

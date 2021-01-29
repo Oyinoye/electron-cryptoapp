@@ -1,0 +1,58 @@
+.table__main{
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+
+table{
+    color: white !important;
+    padding: 20px;
+}
+
+tr:hover{
+    color: blue !important;
+}
+tr{
+    color: white !important;
+}
+
+
+tbody, td, tfoot, th, thead, tr{
+    border: none !important;
+}
+
+
+
+td{
+    padding-top: 20px;
+    align-items: center;
+}
+.table>:not(caption)>*>*{
+    padding: 30px 15px !important;
+}
+
+td img{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.assets{
+    display: flex;
+    padding-right: 10px;
+}
+
+.assets_name{
+    display: flex;
+    flex-direction: column;
+}
+
+.assets_id{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.assets_name span{
+    text-transform: uppercase;
+}
