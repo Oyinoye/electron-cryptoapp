@@ -138,7 +138,12 @@ useEffect(() => {
 
   return (
     <div className='table__main'>
-        
+      <div className='hero'>
+          <h1>
+              Welcome to Exodus
+          </h1>
+          <p>Securely manage over 100 cryptocurrencies with our easy to use platform. Take a dive into the world of crypto.</p>
+      </div>
       <DataTable
         data={items}
         columns={columns}
